@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {isAuthenticated} from '../../lib/auth'
 
 class About extends React.Component {
 
@@ -20,7 +21,7 @@ class About extends React.Component {
 
               <div className="About column-center">
                 <div className="Join-us Title">
-                  <p><Link to="/register">Join us now </Link> and see where your new wardrobe could take you!</p>
+    {!isAuthenticated() && <p><Link to="/register">Join us now </Link> and see where your new wardrobe could take you!</p> }
                 </div>
                 <div className="About-row">
                   <div className="Our-mission column-center">

@@ -182,13 +182,13 @@ class ClothesIndex extends React.Component {
           <br />
           <div className="Clothes-index">
             {filteredItemsToDisplay.length > 0 ? (
-              filteredItemsToDisplay.sort((a, b) => a.rentalPrice - b.rentalPrice).map((cloth) => (
+              filteredItemsToDisplay.sort((a, b) => b.rentalPrice - a.rentalPrice).map((cloth) => (
                 <ClothCard {...cloth} key={cloth._id} />
               ))
             ) : anyFilterSet ? (
               <p>No items found with your filters</p>
             ) : (
-                  filteredClothes.sort((a, b) => a.rentalPrice - b.rentalPrice).map((cloth) => (
+                  filteredClothes.sort((a, b) => b.rentalPrice - a.rentalPrice).map((cloth) => (
                     <ClothCard {...cloth} key={cloth._id} />
                   ))
                 )}
