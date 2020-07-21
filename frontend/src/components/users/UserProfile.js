@@ -53,7 +53,7 @@ class UserProfile extends React.Component {
 
   // * Function to toggle reply message box
   toggleReplyModal = e => {
-    this.setState({ replyModalOpen: !this.state.contactModalOpen, replyId: e.target.value })
+    this.setState({ replyModalOpen: !this.state.replyModalOpen, replyId: e.target.value })
   }
 
   // * Function to handle change of reply textbox
