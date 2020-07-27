@@ -1,5 +1,7 @@
 # KEBB Clothes - SEI Group Project 
 
+## Technologies - React, Express, Node.js, JavaScript, MongoDB, Mongoose
+
 ## OBJECTIVE - 
 This is the third project on the Software Engineering Immersive Course with GA and it is a group project
 
@@ -37,7 +39,7 @@ All is good until the day before last as the styling hadn’t been where we expe
 ## CODE OF THE WEEK
 * The code I was most proud of  
 
-
+```
 // * Function to allow user to filter clothing items
   handleFilter = (e, field) => {
     this.setState({ [field]: e.value }, this.getFilteredItems)
@@ -62,7 +64,7 @@ All is good until the day before last as the styling hadn’t been where we expe
     })
     this.setState({ filteredItemsToDisplay: resultOfFilteredItemsToDisplay })
   }
-  ```
+  
   // * Function to change each filter
   filterChange = (event) => {
     const { filteredClothes } = this.state
@@ -89,6 +91,12 @@ All is good until the day before last as the styling hadn’t been where we expe
 
 ## KEY LEARNINGS -
 
-This particular week has been the highlight of my time on the course. I enjoyed working in a team very much, we were helpful, understanding and collaborative. Each member played a key role, whilst playing to their strengths which was amazing. I also had a lot of fun working with my coleagues whilst learning an awful lot about how different people work and things they may have worked on but I hadnt before. 
+* Team work 
+* Pair coding
+* Design
+* GitHub remote working
+* MERN stack
+* Understanding npm packages and how to use docs for 3rd party packages
 
+This particular week has been the highlight of my time on the course. I enjoyed working in a team very much, we were helpful, understanding and collaborative. Each member played a key role, whilst playing to their strengths which was amazing. I also had a lot of fun working with my coleagues whilst learning an awful lot about how different people work and things they may have worked on but I hadnt before. 
 Loved the project and the final outcome
