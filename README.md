@@ -35,7 +35,9 @@ Having three people on the frontend means that we are able to work even quicker 
 All is good until the day before last as the styling hadn’t been where we expected it to be and we stuill had a few bits we needed to add. All was plain sailing until this point and we hadnt had any disagreements till now. However even though we disagreed with how they styling should be done and why it hadnt been up to the standard it needed to be, we handled the situation like adults and this even showed in our presentation as we were humorous about it. We pulled through as a team to help out with the styling and I kept on with the functionalities over the last 24 hours as the team felt this was my strongest point. I made sure I didnt disappoint.
 
 ## CODE OF THE WEEK
-The code I was most proud of 
+* The code I was most proud of  
+
+
 // * Function to allow user to filter clothing items
   handleFilter = (e, field) => {
     this.setState({ [field]: e.value }, this.getFilteredItems)
@@ -60,6 +62,7 @@ The code I was most proud of
     })
     this.setState({ filteredItemsToDisplay: resultOfFilteredItemsToDisplay })
   }
+  ```
   // * Function to change each filter
   filterChange = (event) => {
     const { filteredClothes } = this.state
@@ -80,6 +83,7 @@ The code I was most proud of
       return "unavailable"
     }
   }
+  ```
   
   We had done a lot of workshops in class around creating search and filter functions. However, I just hadn’t  come across how to make multiple filter bars work simultaneously. I did some research online where I came across some helpful tips and I did stumble many times but will some help from the teaching assistant, i was able to get there in the end.
 
