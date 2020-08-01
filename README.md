@@ -15,7 +15,9 @@ On the same day, we had the layout of our design done using MIRO and the broke d
 
 Last task of the day. How to allocate the work between frontend and backend. I came up with an idea of splitting into two groups as there are four of us in the group, two take on the frontend and another two on the backend. We opted for a random picker and I wound up on the frontend, which I was happy with as long as we got the work done. 
 
-https://trello.com/b/uyWE3M0V/project-3 ## ADD SCREENSHOT HERE
+https://trello.com/b/uyWE3M0V/project-3 
+
+![my screenshot](readme-images/trello.png)
 
 ## DAY TWO
 
@@ -87,6 +89,8 @@ All was good until the day before last as the styling hadn’t been where we exp
   }
   ```
   
+![my screenshot](readme-images/kebbfilter.png)
+
  We had done a lot of workshops in class around creating search and filter functions. However, I just hadn’t  come across how to make multiple filter bars work simultaneously. I did some research online where I came across some helpful tips and I did stumble many times but will some help from the teaching assistant, I was able to get there in the end.
 
 ## KEY LEARNINGS -
