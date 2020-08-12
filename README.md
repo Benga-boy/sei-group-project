@@ -1,6 +1,8 @@
 # KEBB Clothes - SEI Group Project 
 
-## Technologies - React, Express, Node.js, JavaScript, MongoDB, Mongoose
+# Technologies - 
+
+## React, Express, Node.js, JavaScript, MongoDB, Mongoose
 
 ## OBJECTIVE - 
 This is the third project on the Software Engineering Immersive Course with GA and it is a group project.
