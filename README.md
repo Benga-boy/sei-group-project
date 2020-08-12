@@ -1,6 +1,6 @@
 # KEBB Clothes - SEI Group Project 
 
-https://kebb-clothes-benga.herokuapp.com/
+## Deployed project - https://kebb-clothes-benga.herokuapp.com/
 
 # Technologies - 
 
